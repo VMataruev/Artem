@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgb(41, 41, 41);
+    font-family: "Open Sans", sans-serif;
+}
+
+header {
+    width: 1200px;
+    height: 60px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    z-index: 1;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+.ha {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+}
+
+header img {
+    width: 100px;
+    height: 100px;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.link {
+    color: rgb(41, 41, 41);
+    text-decoration: none;
+    font-size: 16px;
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 999px;
+    transition: .5s;
+}
+
+.link:hover{
+    box-shadow: 0px 10px 100px -15px black;
+    color: rgb(106, 106, 233);
+    transition: .5s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bg {
+    background-color: rgb(62, 62, 211);
+    width: 100%;
+    height: 40vh;
+    margin-top: -60px;
+}
+
+
+
+.main_wrapper {
+    display: flex;
+    flex-direction: column;
+    margin: -350px auto 0 auto;
+    max-width: 1377px;
+}
+
+.title_img {
+    max-width: 1377px;
+    margin-bottom: 20px;
+}
+
+.title_img img {
+    max-width: 1377px;
+    border-radius: 15px;
+}
+
+h2 {
+    color: rgb(62, 62, 211);
+    font-family: "Archivo Black", sans-serif;
+}
+
+h1 {
+    font-size: 58px;
+    margin-bottom: 20px;
+    font-family: "Archivo Black", sans-serif;
+}
+
+
+tr {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+
+th {
+    max-width: 670px;
+    display: flex;
+    flex-direction: column;
+}
+
+th img {
+    max-width: 670px;
+    border-radius: 15px;
+}
+
+h4, h3 {
+    margin-right: auto;
+}
+
+h4 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: rgb(62, 62, 211);
+    font-family: "Archivo Black", sans-serif;
+}
+
+h3 {
+    font-family: "Archivo Black", sans-serif;
+    font-size: 28px;
+    text-align: start;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    height: 500px;
+    background-color: rgb(39, 39, 39);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer img {
+    max-width: 600px;
+}
+
