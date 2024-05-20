@@ -10,7 +10,7 @@
 }
 
 header {
-    width: 1200px;
+    max-width: 1200px;
     height: 60px;
     margin: 0 auto;
     display: flex;
@@ -37,6 +37,7 @@ nav a:hover{
 nav {
     display: flex;
     gap: 20px;
+    flex-wrap: wrap;
 }
 
 header img {
@@ -128,7 +129,7 @@ p {
 
 .nitro_block {
     max-width: 1180px;
-    margin: -200px auto 0 auto;
+    margin: -100px auto 0 auto;
     display: flex;
     gap: 20px;
     flex-wrap: wrap;
