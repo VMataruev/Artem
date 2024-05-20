@@ -101,7 +101,7 @@ nav a{
 .bg {
     background-color: #7BA76C;
     width: 100%;
-    height: 40vh;
+    height: 600px;
     margin-top: -60px;
     display: flex;
     z-index: -1;
