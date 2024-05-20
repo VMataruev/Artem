@@ -23,10 +23,14 @@ nav a:hover{
     text-decoration: underline;
 }
 
-.ha {
+.logo {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.logo img {
+    transform: scale(1.5);
 }
 
 nav {
@@ -88,13 +92,16 @@ nav a{
 }
 
 .bg_img {
+    max-width: 100%;
     position: absolute;
     z-index: -2;
+    overflow: hidden;
 }
 
-.bg_img img {
+.bg_img {
     object-fit: cover;
 }
+
 
 .first_block h1{
     color: white;
@@ -213,7 +220,7 @@ nav a{
 
 footer {
     height: 500px;
-    background-color: rgb(39, 39, 39);
+    background-color: rgb(27, 27, 27);
     display: flex;
     justify-content: center;
     align-items: center;
